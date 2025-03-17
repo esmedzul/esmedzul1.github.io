@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información de Universidades</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+        }
+        .universidad {
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .info {
+            margin-bottom: 10px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Información de Universidades</h1>
+    <p>Nombre del Estudiante: María Esmeralda Dzul Balam</p>
+    <p>Grupo: 2604</p>
+    <p>Generación: 2022 a 2025</p>
+    <p>Docente: Adalio Alejandro Quiñones Solis</p>
+
+    <div class="universidad">
+        <h2>Universidad Autónoma de Yucatán (UADY)</h2>
+        <img src="https://api.uady.mx/imagen/noticia/20241006224203_2024-10-06_Comunicado%20UADY.jpg" alt="UADY">
+        <div class="info">Ubicación: Mérida, Yucatán, México</div>
+        <div class="info">Descripción: La UADY es una de las instituciones educativas más importantes del sureste mexicano.
+ La Universidad Autónoma de Yucatán (UADY) ofrece licenciaturas en diversas áreas, como administración, ingeniería, ciencias sociales, humanidades, salud, entre otras.</div>
+        <a href="https://www.uady.mx" target="_blank">Visitar página oficial</a>
+    </div>
+
+    <div class="universidad">
+        <h2>Universidad Pedagógica Nacional (UPN)</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnPffJ6BKOI8_ynWqVonULSWUQnsB4CoSMNA&s" alt="UPN">
+        <div class="info">Ubicación: Ciudad de México, México</div>
+        <div class="info">Descripción: La UPN se especializa en la formación de profesionales en el ámbito educativo.
+Carreras Pedagogía, Psicología Educativa, Sociología de la Educación, Administración Educativa, Educación Indígena.</div>
+        <a href="https://www.upn.mx" target="_blank">Visitar página oficial</a>
+    </div>
+
+    <div class="universidad">
+        <h2>Universidad Benito Juárez García (UBJ)</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7eBBZs7Lj4tczhZ8zwQojkfunMnJsd_le9A&s" alt="UBJ">
+        <div class="info">Ubicación: Ciudad Juárez, Chihuahua, México</div>
+        <div class="info">Descripción: Esta universidad se enfoca en ofrecer educación de calidad a la comunidad fronteriza.
+Las carreras que se imparten en nuestras sedes educativas se encuentran agrupadas por áreas académicas de: Salud, Energía, Procesos Agroalimentarios, Desarrollo Sustentable, Estudios Sociales y Patrimonio Histórico, Cultural y Natural</div>
+        <a href="https://www.ubj.edu.mx" target="_blank">Visitar página oficial</a>
+    </div>
+
+    <div class="universidad">
+        <h2>Universidad Nacional Autónoma de México (UNAM)</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5Y0AlbsqvHx0tIGL2YX_4Zw4gM4pX_9qCjQ&s" alt="UNAM">
+        <div class="info">Ubicación: Ciudad de México, México</div>
+        <div class="info">Descripción: La UNAM es la universidad más grande de América Latina.
+La Universidad Nacional Autónoma de México (UNAM) ofrece una amplia variedad de carreras en las áreas de Ciencias Físico-Matemáticas, Ciencias Biológicas, Ciencias Sociales, y Humanidades y Artes. 
+Ciencias Físico-Matemáticas Ingeniería Civil, Ingeniería en Computación, Ingeniería Eléctrica Electrónica, Ingeniería Industrial, Ingeniería Mecánica. </div>
+        <a href="https://www.unam.mx" target="_blank">Visitar página oficial</a>
+    </div>
+
+</body>
+</html>
